@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
 
-	//ShowWindow(GetConsoleWindow(), SW_HIDE);
+	ShowWindow(GetConsoleWindow(), SW_HIDE);
 
 	GameManager manager;
 	manager.GameInit();
